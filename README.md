@@ -3,9 +3,9 @@ PHP Image optimizer
 
 This is a simple PHP class for optimize image file uses https://github.com/bensquire/php-image-optim (png, jpeg, gif). Requires: optipng, jpegoptim, gifsicle
 
- * http://optipng.sourceforge.net/
+ * http://optipng.sourceforge.net
  * http://freecode.com/projects/jpegoptim
- * http://www.lcdf.org/gifsicle/
+ * http://www.lcdf.org/gifsicle
 
 
 ##Installation using Composer
@@ -24,9 +24,9 @@ This is a simple PHP class for optimize image file uses https://github.com/bensq
         \Extlib\ImageOptimizer::OPTIMIZER_GIFSICLE => '/usr/bin/gifsicle' //your_path
     ));
 
-    $optimizer->optimize("image.png"); //return true;
-    $optimizer->optimize("image.jpg"); //return true;
-    $optimizer->optimize("image.gif"); //return true;
-    $optimizer->optimize("file.txt"); //return false;
+    $optimizer->optimize("image.png"); //return true
+    $optimizer->optimize("image.jpg"); //return true
+    $optimizer->optimize("image.gif"); //return true
+    $optimizer->optimize("file.txt"); //return false
 
-If you don't have some one of optipng, jpegoptim, gifsicle optimyzer throws \Exception. For save uses take all code in try/catch block.
+If you don't have some one of packages: optipng, jpegoptim, gifsicle optimyzer throws Exception. For save uses take all code in try/catch block.
