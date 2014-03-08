@@ -1,0 +1,7 @@
+<phpunit bootstrap="Bootstrap.php">
+    <testsuites>
+        <testsuite name="applicationTests">
+            <directory>./ExtlibTest</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

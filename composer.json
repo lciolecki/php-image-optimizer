@@ -1,0 +1,25 @@
+{
+    "name": "lciolecki/zf-extensions-library",
+    "author": "Lukasz Ciolecki",
+    "description": "PHP image file optimizer (uses https://github.com/bensquire/php-image-optim)",
+    "type": "library",
+    "keywords": [
+        "php",
+        "image",
+        "optimizer"
+    ],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.4",
+        "bensquire/php-image-optim": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Extlib": "src/",
+            "ExtlibTest": "tests/"
+        }
+    }
+}
