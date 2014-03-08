@@ -1,5 +1,5 @@
 {
-    "name": "lciolecki/zf-extensions-library",
+    "name": "lciolecki/php-image-optimizer",
     "author": "Lukasz Ciolecki",
     "description": "PHP image file optimizer (uses https://github.com/bensquire/php-image-optim)",
     "type": "library",
