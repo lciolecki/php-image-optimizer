@@ -3,8 +3,9 @@
 namespace Extlib;
 
 use PHPImageOptim\PHPImageOptim;
-use PHPImageOptim\Tools\Png\OptiPng;
+use Extlib\Tools\Png\OptiPng;
 use PHPImageOptim\Tools\Jpeg\JpegOptim;
+use PHPImageOptim\Tools\Gifsicle;
 
 /**
  * Image file optimizer, uses https://github.com/bensquire/php-image-optim
@@ -51,17 +52,22 @@ class ImageOptimizer
     protected $jpegOptim = null;
     
     /**
+     *
+     * @var \PHPImageOptim\Tools\Gifsicle
+     */
+    protected $gifsicle = null;
+    
+    /**
      * Instance of construct
      * 
      * @param array $binaryPaths
      */
     function __construct(array $binaryPaths = array())
     {
-        foreach ($binaryPaths as $name => $path) {
-            if (isset($this->binaryPaths[$name])) {
-                $this->binaryPaths[$name]= $path;
-            }
-        }
+        $this->binaryPaths = array_merge($this->binaryPaths, $binaryPaths);
+               
+        
+       
         
         $this->optiPng = new OptiPng();
         $this->optiPng->setBinaryPath($this->binaryPaths[self::OPTIMIZER_OPTIPNG]);
