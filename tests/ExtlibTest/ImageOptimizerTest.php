@@ -20,8 +20,8 @@ class ImageOptimizerTest extends \PHPUnit_Framework_TestCase
         return array(
             [APPLICATION_PATH . '/../resources/jpg.JPG', true],
             [APPLICATION_PATH . '/../resources/png.png', true],
-            [APPLICATION_PATH . '/../resources/gif.gif', true],
-            [APPLICATION_PATH . '/../resources/php.php', true],
+            //[APPLICATION_PATH . '/../resources/gif.gif', true],
+            [APPLICATION_PATH . '/../resources/php.php', false],
         );
     }
     
