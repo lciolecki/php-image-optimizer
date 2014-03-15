@@ -29,4 +29,4 @@ This is a simple PHP class for optimize image file uses https://github.com/bensq
     $optimizer->optimize("image.gif"); //return true
     $optimizer->optimize("file.txt"); //return false
 
-If you don't have some one of packages: optipng, jpegoptim, gifsicle optimyzer throws Exception. For save uses take all code in try/catch block.
+If you don't have some one of packages: optipng, jpegoptim, gifsicle optimizer throws Exception. For save uses take all code in try/catch block.
