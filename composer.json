@@ -9,6 +9,14 @@
         "optimizer"
     ],
     "license": "BSD-3-Clause",
+    
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bensquire/php-image-optim"
+        }
+    ],
+    
     "require": {
         "php": ">=5.4",
         "bensquire/php-image-optim": "*"
