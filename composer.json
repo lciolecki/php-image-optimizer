@@ -11,7 +11,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.4",
-        "bensquire/php-image-optim": "dev-master"
+        "bensquire/php-image-optim": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
