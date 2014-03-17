@@ -12,7 +12,6 @@ This is a simple PHP class for optimize image file uses https://github.com/bensq
 
     {
         "require": {
-            "bensquire/php-image-optim": "dev-master",
             "lciolecki/php-image-optimizer": "dev-master"
         }
     }
