@@ -19,7 +19,7 @@
     
     "require": {
         "php": ">=5.4",
-        "bensquire/php-image-optim": "*"
+        "bensquire/php-image-optim": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
