@@ -11,6 +11,7 @@ This is a simple PHP class for optimize image file uses https://github.com/bensq
 ##Installation using Composer
 
     {
+        "minimum-stability": "dev",
         "require": {
             "lciolecki/php-image-optimizer": "dev-master"
         }
